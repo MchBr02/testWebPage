@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #333;
+    color: #fff;
+}
+#container {
+    width: 90vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-color: #343434;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+header {
+    background-color: rgb(40, 40, 226);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+#imieNazwisko {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainInfoLeft, .mainInfoRight {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5%;
+}
+.mainInfoLeft {
+    align-items: flex-end;
+    text-align: right;
+}
+.mainInfoLeft div, .mainInfoRight div {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    margin: 10px 0;
+}
+.mainInfoLeft div img, .mainInfoRight div img {
+    width: 20px;
+    margin: 0 10px;
+}
+#PFP {
+    width: 150px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#PFP img {
+    height: 90%;
+    display: block;
+}
+main {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+main img {
+    width: 30%;
+    margin: 10%;
+}
+main img:hover {
+    width: 40%;
+    margin: 5%
+}
+footer {
+    background-color: #383838;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
